@@ -50,7 +50,7 @@ const addTaboolaFooter = () => {
   footer.after(script);
 };
 
-export default function Home() {
+export default function Article() {
   useEffect(() => {
     addTaboolaHead();
     addTaboolaThumbnails();
@@ -69,7 +69,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p><Link href="/article">Go to article</Link></p>
+        <p><Link href="/">Go to home</Link></p>
 
         <p className={styles.description}>
           Get started by editing{' '}
